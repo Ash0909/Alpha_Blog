@@ -28,12 +28,22 @@ $navbar-default-bg: rgb(0, 0, 0);
     font-size: 1.7em;
     background-color: black;
 }
-.article_actions {
+.article-actions {
     border-top: 1px solid #eaeaea;
     padding-top: 5px;
 }
-.description{
+.description {
     margin-top: 0;
+}
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 50px;
+}
+.article-body {
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 footer {
     margin-top: 45px;
@@ -41,7 +51,7 @@ footer {
     border-top: 1px solid #eaeaea;
     color: #777;
 }
-footer a:hover{
+footer a:hover {
     color: #222;
 }
 footer small {
