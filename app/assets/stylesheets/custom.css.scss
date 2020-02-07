@@ -1,4 +1,5 @@
 $navbar-default-bg: rgb(0, 0, 0);
+
 #logo {
     float: left;
     font-size: 1.7em;
@@ -6,17 +7,21 @@ $navbar-default-bg: rgb(0, 0, 0);
     letter-spacing: -1px;
     font-weight: bold;
 }
+
 #logo:hover {
     text-decoration: none;
 }
+
 .center {
     text-align: center;
 }
+
 .jumbotron {
     background-image: asset-url('Lamborghini.png');
     background-size: cover;
     height: 550px;
 }
+
 .jumbotron h1 {
     color: #fff;
     text-align: center;
@@ -24,32 +29,44 @@ $navbar-default-bg: rgb(0, 0, 0);
     letter-spacing: -1px;
     font-weight: bold;
 }
+
 .btn-xlarge {
     font-size: 1.7em;
     background-color: black;
 }
+
 .article-meta-details {
     border-top: 1px solid #eaeaea;
     margin-top: 15px;
 }
+
 .article-actions {
     border-top: 1px solid #eaeaea;
     padding-top: 5px;
 }
+
 .description {
     margin-top: 0;
 }
+
 .article-title {
     font-weight: bold;
     font-size: 1.5em;
     margin-top: 20px;
 }
+
 .article-body {
     border-top: 1px solid #eaeaea;
     padding-top: 15px;
     padding-bottom: 15px;
     max-width: 300px;
 }
+
+.listing {
+    list-style: none;
+    padding-left: 0;
+}
+
 .container {
     max-width: 800px;
     justify-content: center;
@@ -63,13 +80,27 @@ $navbar-default-bg: rgb(0, 0, 0);
     margin-right: 0;
     margin-left: 0;
 }
+
 .child-box {
     max-width: 300px;
 }
-.rounded-circle{
+
+.rounded-circle {
     vertical-align: middle;
     border-radius: 40px;
 }
+
+.dropdown-menu> a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+button {
+    color: black;
+}
+
 footer {
     margin-top: 45px;
     padding-top: 5px;
@@ -77,16 +108,20 @@ footer {
     color: #777;
     width: 100%;
 }
+
 footer a:hover {
     color: #222;
 }
+
 footer small {
     float: left; 
 }
+
 footer ul {
     float: right;
     list-style: none ;
 }
+
 footer ul li {
     float: left;
     margin-left: 15px;
