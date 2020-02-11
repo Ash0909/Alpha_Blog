@@ -90,8 +90,8 @@ $navbar-default-bg: rgb(0, 0, 0);
     border-radius: 40px;
 }
 
-.dropdown-menu> a {
-    color: black;
+.dropdown-menu > a, li {
+    color: black !important;
     text-decoration: none;
     background-color: transparent;
     padding-left: 10px;
